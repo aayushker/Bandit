@@ -1,0 +1,85 @@
+1  ls
+    2  cat data.txt | hexdump
+    3  cat data.txt | hexdump -c
+    4  cat data.txt | hexdump -C
+    5  cat data.txt | hexdump -C | uniq
+    6  cat data.txt | xxd
+    7  man xxd
+    8  cat data.txt | xxd -r
+    9  cat data.txt | xxd -r | base64
+   10  cat data.txt | xxd -r | base64 | uniq
+   11  cat data.txt | xxd -r | base64 | gunzip
+   12  clear
+   13  ls
+   14  mkdir /tmp/gopatron
+   15  ls
+   16  cd /tmp/gopatron
+   17  ls
+   18  /tmp/gopatron
+   19  cp ~/data.txt
+   20  cp ~/data.txt .
+   21  ls
+   22  mv data.txt data
+   23  ls
+   24  cat data | xxd
+   25  cat data | xxd -c
+   26  cat data | xxd -r
+   27  xxd -r data > binary
+   28  ls
+   29  file binary
+   30  cat binary
+   31  mv binary.out binary.gz
+   32  mv binary binary.gz
+   33  ls
+   34  file binary.gz
+   35  bunzip2 binary
+   36  file binary
+   37  gunzip binary.gz
+   38  ls
+   39  file binary
+   40  bunzip2 binary
+   41  ls
+   42  file binary.out
+   43  mv binary.out binary.gz
+   44  ls
+   45  file binary
+   46  gunzip binary.gz
+   47  ls
+   48  file binary
+   49  tar -xf binary
+   50  ls
+   51  file data5.bin
+   52  tar -xf binary
+   53  ls
+   54  tar -xf binary
+   55  ls
+   56  cat data.bin
+   57  cat data5.bin
+   58  file data5.bin
+   59  rm data5.bin
+   60  ls
+   61  file data5.bin
+   62  tar -xf binary
+   63  ls
+   64  file data5.bin
+   65  rm binary data
+   66  ls
+   67  tar -xf data5.bin
+   68  ls
+   69  file data6.bin
+   70  rm data5.bin
+   71  bunzip2 data6.bin
+   72  ls
+   73  file data6.bin.out
+   74  tar -xf data6.bin.out
+   75  ls
+   76  file data8.bin
+   77  ls
+   78  rm data6.bin.out
+   79  mv data8.bin data8.gz
+   80  ls
+   81  gunzip2 data8.gz
+   82  gunzip data8.gz
+   83  ls
+   84  cat data8
+   85  history
